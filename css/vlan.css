@@ -1,0 +1,82 @@
+
+label {
+    letter-spacing: 0.05em;
+  }
+
+  button {
+    background: rgba(255, 255, 255, 0.05);
+    width: 100%;
+    height: fit-content;
+    padding: 1em 0em;
+    border-radius: 5px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.9);
+    cursor: pointer;
+    text-align: center;
+    letter-spacing: 0.1em;
+    color: rgb(133, 71, 136);
+    font-weight: bold;
+  }
+
+  button:hover {
+    background: rgba(255, 255, 255, 0.33);
+    width: 100%;
+    height: fit-content;
+    padding: 1em 0em;
+    border-radius: 5px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.9);
+    cursor: pointer;
+    text-align: center;
+    letter-spacing: 0.05em;
+  }
+
+  .container {
+    background: rgba(255, 255, 255, 0.32);
+    border-radius: 10px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.5);
+  }
+
+  #copy-text {
+    display: none;
+  }
+
+  #notif {
+    display: none;
+    position: absolute;
+    top: 2em;
+    background: rgba(255, 255, 255, 0.32);
+    border-radius: 5px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(9.2px);
+    -webkit-backdrop-filter: blur(9.2px);
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    padding: 1em 2em;
+    color: rgb(97, 68, 141);
+    font-weight: 400;
+    letter-spacing: 0.1em;
+  }
+
+  /* Chrome, Safari, Edge, Opera */
+  input::-webkit-outer-spin-button,
+  input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
+
+  /* Firefox */
+  input[type=number] {
+    -moz-appearance: textfield;
+  }
+
+  input {
+    padding: 0.5em 1em 0.5em 1em;
+    border-radius: 5px;
+    border: 0.5px solid gray;
+    margin: 5px 0;
+  }
+  .st0 {
+    fill-rule: evenodd;
+    clip-rule: evenodd;
+  }
