@@ -56,8 +56,8 @@ body {
  flex-direction: column;
  padding: 2em;
  width: 100%;
- height: 110vh;
- @media screen and (max-width: 480px) {
+ height: 100vh;
+ @media screen and (max-width: 580px) {
   padding: 0.8em;
  }
 }
